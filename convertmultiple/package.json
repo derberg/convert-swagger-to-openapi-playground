@@ -1,0 +1,33 @@
+{
+  "name": "convertmultiple",
+  "version": "1.0.0",
+  "description": "Just a sample how conversion of swagger to openapi could look like at scale when you have multiple files and want to convert them all with just one call",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "gen-readme-toc": "markdown-toc -i ../README.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derberg/convert-swagger-to-openapi-playground.git"
+  },
+  "keywords": [
+    "swagger",
+    "swagger2",
+    "openapi",
+    "openapi3",
+    "convert"
+  ],
+  "author": "Lukasz Gornicki (derberg)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/derberg/convert-swagger-to-openapi-playground/issues"
+  },
+  "homepage": "https://github.com/derberg/convert-swagger-to-openapi-playground#readme",
+  "dependencies": {
+    "glob": "^7.1.6",
+    "swagger2openapi": "^6.2.3",
+    "yaml": "^1.10.0"
+  }
+}
